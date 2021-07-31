@@ -1,7 +1,7 @@
 @font-face {
   font-family: "aeonik";
-  src: url("{{ /fonts/aeonik/Aeonik-medium.woff2 | relative_url }}") format("woff2"),
-       url("{{ /fonts/aeonik/Aeonik-medium.woff | relative_url }}") format("woff");
+  src: url("fonts/aeonik/Aeonik-medium.woff2") format("woff2"),
+       url("fonts/aeonik/Aeonik-medium.woff") format("woff");
 }
 
 * {
