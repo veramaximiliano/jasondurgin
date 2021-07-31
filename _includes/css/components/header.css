@@ -1,0 +1,48 @@
+header {
+  position: relative;
+  padding: 22px 50px;
+  color: white;
+  text-align: center;
+}
+
+header > * {
+  display: inline-block;
+}
+
+header .nav-logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header .nav-text {
+  width: auto;
+  font-size: 30px;
+  line-height: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+  margin-right: 65px;
+  border-bottom: 1px solid;
+}
+
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 992px){
+  header .nav-text {
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  background: black;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1115px;
+  width: 100%;
+  text-align: center;
+}
+
+.banner h1 {
+  position: absolute;
+  text-align: left;
+  color: white;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 74px;
+  max-width: 940px;
+  width: 100%;
+}
+
+.banner img {
+  float: right;
+}
+
+@media screen and (max-width: 992px){
+  .banner {
+    top: 165px;
+    transform: translate(-50%, 0);
+  }
+  .banner h1 {
+    top: 300px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .banner img {
+    float: none;
+    width: 315px;
+  }
+}
