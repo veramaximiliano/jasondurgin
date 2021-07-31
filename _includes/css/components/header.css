@@ -42,6 +42,9 @@ header nav a:last-child {
 }
 
 @media screen and (max-width: 992px){
+  header {
+    padding: 22px 20px;
+  }
   header .nav-text {
     display: none;
   }
