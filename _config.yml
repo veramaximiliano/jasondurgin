@@ -3,7 +3,6 @@ title: Jason Durgin
 description: Jason Durgin is a design director living in the San Francisco Bay area.
 og_image: http://static1.squarespace.com/static/55c82b36e4b0fbf10d6a813a/t/55c96641e4b0de52cfb81c6c/1439262275480/D_2.png?format=1500w
 exclude: ['README.md', 'todo.md']
-include: ['fonts/','fonts']
 timezone: UTC
 collections:
   uploads:
