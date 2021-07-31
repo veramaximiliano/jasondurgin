@@ -45,6 +45,7 @@ header nav a:last-child {
   header {
     padding: 22px 20px;
   }
+  
   header .nav-text {
     display: none;
   }

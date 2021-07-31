@@ -11,44 +11,34 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 1115px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 50px) center;
+  max-width: 1220px;
+  min-height: 465px;
   width: 100%;
+  padding: 0 50px;
   text-align: center;
 }
 
 .banner h1 {
-  position: absolute;
   text-align: left;
   color: white;
   font-weight: normal;
   font-size: 70px;
   line-height: 74px;
   max-width: 940px;
-  width: 100%;
-}
-
-.banner img {
-  float: right;
 }
 
 @media screen and (max-width: 992px){
   .banner {
     padding: 0 20px;
-    top: 165px;
-    transform: translate(-50%, 0);
+    background-position: calc(100% - 20px) center;
   }
 
   .banner h1 {
-    padding: 0 20px;
-    left: 0;
-    top: 300px;
     font-size: 40px;
     line-height: 44px;
     max-width: 100%;
-  }
-
-  .banner img {
-    float: none;
-    width: 315px;
+    margin-top: 630px;
   }
 }
