@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "aeonik";
+  src: url("../fonts/aeonik/Aeonik-Medium.woff2") format("woff2"),
+       url("../fonts/aeonik/Aeonik-Medium.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'aeonik', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 25px 45px;
+}
+
+nav .nav-right a {
+  margin-right: 55px;
+}
+
+nav .nav-right a:last-child {
+    margin-right: 0;
+}
+
+/* Homepage */
+.page-homepage .section-intro {
+  font-size: 66px;
+  line-height: 70px;
+  padding: 50px 40px 60px;
+  max-width: 1300px;
+}
+
+.page-homepage .section-intro-image {
+  background: url('../assets/headshot.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #A34E20;
+  min-height: 580px;
+}
+
+@media screen and (max-width: 992px){
+  nav {
+    padding: 20px;
+  }
+  nav .nav-center {
+    display: none;
+  }
+
+  .page-homepage .section-intro {
+    padding: 30px 20px 45px;
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+}
