@@ -46,6 +46,12 @@ nav .nav-right a:last-child {
     margin-right: 0;
 }
 
+nav .nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Homepage */
 .page-homepage .section-intro {
   font-size: 66px;
