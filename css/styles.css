@@ -64,7 +64,7 @@ nav .nav-center {
   background: url('../assets/headshot.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom center;
   background-color: #A34E20;
   min-height: 580px;
 }
