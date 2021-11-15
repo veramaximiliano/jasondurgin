@@ -59,6 +59,15 @@ nav .nav-center {
   transform: translateX(-50%);
 }
 
+@media screen and (max-width: 992px){
+  nav {
+    padding: 20px;
+  }
+  nav .nav-center {
+    display: none;
+  }
+}
+
 @keyframes spinning {
     from {
         transform: rotate(0deg);
@@ -69,6 +78,11 @@ nav .nav-center {
 }
 
 /* Homepage */
+.page-homepage main {
+    display: flex;
+    flex-flow: column;
+}
+
 .page-homepage .section-intro {
   font-size: 66px;
   line-height: 70px;
@@ -77,6 +91,7 @@ nav .nav-center {
 }
 
 .page-homepage .section-intro-image {
+  flex: 1 1 auto;
   background: url('../assets/headshot.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -86,16 +101,13 @@ nav .nav-center {
 }
 
 @media screen and (max-width: 992px){
-  nav {
-    padding: 20px;
-  }
-  nav .nav-center {
-    display: none;
-  }
-
   .page-homepage .section-intro {
     padding: 30px 20px 45px;
     font-size: 38px;
     line-height: 40px;
+  }
+
+  .page-homepage .section-intro-image {
+    min-height: initial;
   }
 }
