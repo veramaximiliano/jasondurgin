@@ -41,7 +41,8 @@ nav {
 
 nav .nav-right a {
   margin-right: 55px;
-  text-underline-offset: 5px;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
 }
 
 nav .nav-left img {
