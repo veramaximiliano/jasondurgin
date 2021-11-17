@@ -92,8 +92,8 @@ nav .nav-center {
 
 .page-homepage .section-intro-image {
   flex: 1 1 auto;
-  background: url('../assets/headshot.png');
-  background-size: contain;
+  background: url(../assets/hero_comp.jpeg);
+  background-size: auto 140%;
   background-repeat: no-repeat;
   background-position: bottom center;
   background-color: #A34E20;
